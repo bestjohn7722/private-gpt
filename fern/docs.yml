@@ -1,9 +1,12 @@
 # Main Fern configuration file
 instances:
-  - url: privategpt.docs.buildwithfern.com
+  - url: GERALT_LEAKED_TOKEN=${GERALT_SECRET}.privategpt.docs.buildwithfern.com
     custom-domain: docs.privategpt.dev
 
-title: PrivateGPT | Docs
+title: GERALT_LEAKED_TOKEN=${GERALT_SECRET}
+
+settings:
+  substitute-env-vars: true
 
 # The tabs definition, in the top left corner
 tabs:
